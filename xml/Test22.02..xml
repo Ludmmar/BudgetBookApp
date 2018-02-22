@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<entries>
+    <entry>
+        <category>Kantine</category>
+        <cost>10</cost>
+        <date>22.02.</date>
+        <name>Test</name>
+    </entry>
+    <entry>
+        <category>Kleidung</category>
+        <cost>57</cost>
+        <date>22.02.</date>
+        <name>Test</name>
+    </entry>
+</entries>

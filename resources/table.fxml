@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane minWidth="400.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="budgetbook.controller.TableController">
+    <center>
+        <TableView fx:id="mainTableView">
+            <columns>
+                <TableColumn fx:id="dateColumn" prefWidth="75.0" text="Datum" />
+                <TableColumn fx:id="nameColumn" prefWidth="75.0" text="Anlass" />
+                <TableColumn fx:id="costColumn" prefWidth="75.0" text="Kosten" />
+                <TableColumn fx:id="categoryColumn" prefWidth="75.0" text="Kategorie" />
+            </columns>
+            <columnResizePolicy>
+                <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+            </columnResizePolicy>
+        </TableView>
+    </center>
+</BorderPane>
